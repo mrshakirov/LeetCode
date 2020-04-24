@@ -11,14 +11,20 @@ class LeetCode:
         dict = {}
         
         for i in arr:
-            dict[i] = 1
+            if i in dict:
+                dict[i] += 1
+            else:
+                dict[i] = 1
 
         for item in dict:
             if item + 1 in dict:
-                result += 1
+                if dict[item] > dict[item + 1]:
+                    result += dict[item]
+                else:
+                    result += min(dict[item + 1], dict[item])
         return result
 
 l = LeetCode()
 print(l.countElements([1,1,2]))
 
-# Complexity O(N)
+# Complexity O(N^2) + N = O(N^2)

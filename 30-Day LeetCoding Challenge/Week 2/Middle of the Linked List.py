@@ -1,6 +1,4 @@
-#Given a non-empty, singly linked list with head node head, return a middle node of linked list.
-
-#If there are two middle nodes, return the second middle node.
+#https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/529/week-2/3290/
 
 from typing import List
 
@@ -43,4 +41,4 @@ llist = LinkedList(["1","2","3","4","5"])
 
 print(l.middleNode(llist.head))
 
-# Complexity O(n)
+# Complexity O(N), where N is number of Nodes in Linked List

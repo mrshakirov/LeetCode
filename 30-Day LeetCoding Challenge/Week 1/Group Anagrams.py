@@ -1,4 +1,4 @@
-#Given an array of strings, group anagrams together.
+#https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3288/
 
 from typing import List
 import collections

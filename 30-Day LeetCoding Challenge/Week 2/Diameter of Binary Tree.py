@@ -21,4 +21,4 @@ class LeetCode:
         getDiameter(root)
         return self.ans
 
-# Complexity is o(N), where N is number of nodes
+# Complexity is O(N), where N is number of nodes

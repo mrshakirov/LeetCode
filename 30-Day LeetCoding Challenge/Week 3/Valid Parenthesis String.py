@@ -28,4 +28,4 @@ class LeetCode:
 l = LeetCode()
 print(l.checkValidString("(*))"))
 
-#Complexity O(N), N - numbers of integers in array
+#Complexity O(N), N - number of chars in string
